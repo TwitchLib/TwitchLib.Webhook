@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.WebHooks.Metadata;
 
-namespace Treyza.AspNetCore.WebHooks.Receivers.Twitch.Metadata
+namespace TwitchLib.Webhook.Metadata
 {
     public class TwitchMetadata : 
         WebHookMetadata,

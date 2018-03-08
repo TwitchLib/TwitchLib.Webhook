@@ -1,10 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
 using Microsoft.Extensions.DependencyInjection;
-using Treyza.AspNetCore.WebHooks.Receivers.Twitch.Internal;
+using TwitchLib.Webhook.Internal;
 
-
-namespace Treyza.AspNetCore.WebHooks.Receivers.Twitch.Extensions
+namespace TwitchLib.Webhook.Extensions
 {
     [EditorBrowsable(EditorBrowsableState.Never)]
     public static class TwitchMvcCoreBuilderExtensions

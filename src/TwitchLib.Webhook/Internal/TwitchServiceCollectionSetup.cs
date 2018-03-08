@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.WebHooks.Metadata;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
-using Treyza.AspNetCore.WebHooks.Receivers.Twitch.Filters;
-using Treyza.AspNetCore.WebHooks.Receivers.Twitch.Metadata;
+using TwitchLib.Webhook.Filters;
+using TwitchLib.Webhook.Metadata;
 
-namespace Treyza.AspNetCore.WebHooks.Receivers.Twitch.Internal
+namespace TwitchLib.Webhook.Internal
 {
     public static class TwitchServiceCollectionSetup
     {

@@ -10,9 +10,7 @@ using Microsoft.AspNetCore.WebHooks.Filters;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-
-
-namespace Treyza.AspNetCore.WebHooks.Receivers.Twitch.Filters
+namespace TwitchLib.Webhook.Filters
 {
     public class TwitchVerifySignatureFilter : WebHookVerifySignatureFilter, IAsyncResourceFilter
     {

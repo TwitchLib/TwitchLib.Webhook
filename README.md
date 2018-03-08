@@ -1,2 +1,2 @@
 # TwitchLib.Webhook
-Webhook component of TwitchLib.
+Webhook component of TwitchLib. 

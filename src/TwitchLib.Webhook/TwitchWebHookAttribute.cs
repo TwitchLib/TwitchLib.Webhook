@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.WebHooks;
 
-namespace Treyza.AspNetCore.WebHooks.Receivers.Twitch
+namespace TwitchLib.Webhook
 {
     public class TwitchWebHookAttribute : WebHookAttribute
     {

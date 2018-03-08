@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.WebHooks.Metadata;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Treyza.AspNetCore.WebHooks.Receivers.Twitch.Filters
+namespace TwitchLib.Webhook.Filters
 {
     public class TwitchGetHeadRequestFilter : WebHookGetHeadRequestFilter, IAsyncResourceFilter
     {

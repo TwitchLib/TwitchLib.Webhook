@@ -1,4 +1,4 @@
-﻿namespace Treyza.AspNetCore.WebHooks.Receivers.Twitch
+﻿namespace TwitchLib.Webhook
 {
     public static class TwitchConstants
     {

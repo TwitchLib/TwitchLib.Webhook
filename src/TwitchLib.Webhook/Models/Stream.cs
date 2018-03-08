@@ -1,9 +1,8 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Treyza.AspNetCore.WebHooks.Receivers.Twitch.Models
+namespace TwitchLib.Webhook.Models
 {
     public class Stream
     {

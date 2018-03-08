@@ -50,7 +50,11 @@ namespace TwitchLib.Webhook.Filters
         {
             // Get the 'challenge' parameter from the request URI.
             if (!request.Query.TryGetValue(getHeadRequestMetadata.ChallengeQueryParameterName, out var challenge))
-                return new BadRequestObjectResult("hub.challenge not found in query parameters!");
+            {
+                Logger.LogInformation($"{getHeadRequestMetadata.ChallengeQueryParameterName} not found in query parameters!");
+                return new BadRequestObjectResult($"{getHeadRequestMetadata.ChallengeQueryParameterName} not found in query parameters!");
+            }
+                
 
             Logger.LogInformation(
                 403,

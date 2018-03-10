@@ -1,5 +1,7 @@
 # TwitchLib.Webhook
 
+## \*\* **This Library Requires dotnet core 2.1 preview 1 installed** \*\*
+
 This library implements ASP.NET Core Webhook Receiver (https://github.com/aspnet/WebHooks).
 
 It's meant to make creating a Webhook with ASP.NET Core Web API trivial.

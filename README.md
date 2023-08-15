@@ -1,3 +1,5 @@
+# Deprecated! Please use https://github.com/TwitchLib/TwitchLib.EventSub.Webhooks instead
+
 # TwitchLib.Webhook
 
 ## \*\* **This Library Requires dotnet core 2.1 preview 1 installed** \*\*
